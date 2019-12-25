@@ -9,6 +9,7 @@ public class Clone implements Cloneable {
         ArrayList<String> listCopy = new ArrayList<String>();
         list.add("zzz");
         list.add("ggg");
+        list.add("fff");
         listCopy = (ArrayList<String>) list.clone();
         for (String x :
                 listCopy) {
