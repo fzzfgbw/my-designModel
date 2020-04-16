@@ -15,6 +15,7 @@ public class StaticInnerClass {
 }
 class test{
     public static void main(String[] args) {
+
         StaticInnerClass.Inner si=new StaticInnerClass.Inner();
         si.go();
     }
